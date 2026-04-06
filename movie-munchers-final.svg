@@ -1,0 +1,16 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="200" fill="#0D1117"/>
+  <text x="30" y="115" font-family="Arial Black, sans-serif" font-size="70" fill="white">M</text>
+  <g transform="translate(135,85)">
+    <circle cx="0" cy="0" r="38" fill="white"/>
+    <circle cx="0" cy="0" r="10" fill="#0D1117"/>
+    <circle cx="0" cy="-23" r="8" fill="#0D1117"/>
+    <circle cx="23" cy="0" r="8" fill="#0D1117"/>
+    <circle cx="0" cy="23" r="8" fill="#0D1117"/>
+    <circle cx="-23" cy="0" r="8" fill="#0D1117"/>
+  </g>
+  <text x="175" y="115" font-family="Arial Black, sans-serif" font-size="70" fill="white">VIE</text>
+  <text x="380" y="115" font-family="Arial Black, sans-serif" font-size="70" fill="white">MUNCHERS</text>
+  <path d="M145 50 C 200 0, 265 15, 325 95 C 360 135, 470 150, 600 130 C 700 115, 800 120, 880 145"
+        stroke="white" fill="none" stroke-width="14" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,58 @@
+<svg width="512" height="256" viewBox="0 0 512 256" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="256" fill="#0D1117"/>
+  
+  <!-- Film tape path (white with dark perforations) -->
+  <g>
+    <!-- Tape body -->
+    <path d="M220 110 C270 65, 360 65, 430 110
+             C460 130, 470 160, 505 168
+             L505 198
+             C470 190, 460 160, 430 140
+             C360 95, 270 95, 220 140 Z" fill="#FFFFFF" opacity="0.95"/>
+    <!-- Perforations along bottom edge of tape -->
+    <g fill="#0D1117">
+      <rect x="245" y="146" width="10" height="8" rx="1"/>
+      <rect x="270" y="136" width="10" height="8" rx="1"/>
+      <rect x="295" y="126" width="10" height="8" rx="1"/>
+      <rect x="320" y="118" width="10" height="8" rx="1"/>
+      <rect x="345" y="116" width="10" height="8" rx="1"/>
+      <rect x="370" y="120" width="10" height="8" rx="1"/>
+      <rect x="395" y="132" width="10" height="8" rx="1"/>
+      <rect x="420" y="148" width="10" height="8" rx="1"/>
+    </g>
+  </g>
+
+  <!-- Reel group -->
+  <g transform="translate(120,128)">
+    <!-- Outer reel -->
+    <circle cx="0" cy="0" r="80" fill="#FFFFFF"/>
+    <!-- Inner ring (cutout) -->
+    <circle cx="0" cy="0" r="18" fill="#0D1117"/>
+    <!-- Spokes (light decorative) -->
+    <g fill="#0D1117" opacity="0.12">
+      <rect x="-5" y="-80" width="10" height="160" rx="5"/>
+      <rect x="-80" y="-5" width="160" height="10" rx="5"/>
+      <g transform="rotate(45)">
+        <rect x="-5" y="-80" width="10" height="160" rx="5"/>
+      </g>
+      <g transform="rotate(-45)">
+        <rect x="-5" y="-80" width="10" height="160" rx="5"/>
+      </g>
+    </g>
+    <!-- Reel holes (4 large) -->
+    <g fill="#0D1117">
+      <circle cx="0" cy="-45" r="14"/>
+      <circle cx="45" cy="0" r="14"/>
+      <circle cx="0" cy="45" r="14"/>
+      <circle cx="-45" cy="0" r="14"/>
+    </g>
+    <!-- Subtle highlight -->
+    <ellipse cx="-30" cy="-30" rx="60" ry="20" fill="#FFFFFF" opacity="0.15" />
+  </g>
+
+  <!-- Connection from reel to tape -->
+  <path d="M200 120 C215 115, 225 112, 240 110" stroke="#FFFFFF" stroke-width="10" fill="none" stroke-linecap="round" />
+  <path d="M200 135 C215 140, 225 142, 240 145" stroke="#FFFFFF" stroke-width="10" fill="none" stroke-linecap="round" />
+
+</svg>
